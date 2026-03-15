@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avalo — Prescribe Ciencia. Gana Comisiones.</title>
+  <meta name="description" content="La plataforma para médicos mexicanos que recomiendan suplementos de calidad y reciben comisión automática. Sin papeleos. Sin exclusividades.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #1e40af, #7c3aed);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-bg {
+      background: linear-gradient(135deg, #f0f4ff 0%, #faf5ff 100%);
+    }
+    .card-hover {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- NAV -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-violet-600 flex items-center justify-center">
+          <span class="text-white font-bold text-sm">A</span>
+        </div>
+        <span class="font-bold text-xl text-gray-900">Avalo</span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm text-gray-600">
+        <a href="#como-funciona" class="hover:text-gray-900 transition">Cómo funciona</a>
+        <a href="#productos" class="hover:text-gray-900 transition">Productos</a>
+        <a href="#comisiones" class="hover:text-gray-900 transition">Comisiones</a>
+        <a href="#registro" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition font-medium">Registrarme</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-bg px-6 py-24">
+    <div class="max-w-5xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 rounded-full px-4 py-2 text-sm text-blue-700 font-medium mb-8">
+        <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+        Lanzamiento en México — Primeros 50 médicos con acceso prioritario
+      </div>
+      
+      <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+        Prescribe Ciencia.<br>
+        <span class="gradient-text">Gana Comisiones.</span>
+      </h1>
+      
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
+        Recomienda suplementos de calidad certificada COFEPRIS a tus pacientes. 
+        Recibe 15% de comisión automática. Sin exclusividad. Sin papeleos.
+      </p>
+
+      <p class="text-sm text-gray-500 mb-10">
+        Basado en el modelo FrontrowMD (EE.UU.) — adaptado para el mercado mexicano, 
+        con los estándares de formulación de CellX Nutrition.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#registro" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-700 transition shadow-lg shadow-blue-200 w-full sm:w-auto">
+          Registrarme como médico afiliado →
+        </a>
+        <a href="#como-funciona" class="text-gray-600 hover:text-gray-900 transition font-medium flex items-center gap-2">
+          Ver cómo funciona
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Social proof -->
+      <div class="mt-12 flex items-center justify-center gap-8 text-sm text-gray-500">
+        <div class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+          </svg>
+          COFEPRIS Certificado
+        </div>
+        <div class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+          </svg>
+          Pago en 24-48hrs
+        </div>
+        <div class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+          </svg>
+          Sin exclusividad
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="bg-gray-900 text-white py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">El problema que estamos resolviendo</h2>
+      <p class="text-xl text-gray-300 leading-relaxed mb-8">
+        Tus pacientes compran suplementos de calidad desconocida en farmacias, Amazon y grupos de Facebook. 
+        Tú los ves llegar con productos mal formulados — dosis inadecuadas, ingredientes sin respaldo científico.
+      </p>
+      <p class="text-xl text-gray-100 font-medium leading-relaxed">
+        Avalo cierra la brecha: <span class="text-blue-400">tú recomiendas lo que funciona</span>, 
+        el paciente compra con confianza, 
+        <span class="text-blue-400">tú recibes comisión automática</span>.
+      </p>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section id="como-funciona" class="py-24 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-4">Cómo funciona</h2>
+      <p class="text-gray-600 text-center mb-16 text-lg">3 pasos. 0 burocracia.</p>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card-hover bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-xl mb-6">1</div>
+          <h3 class="text-xl font-semibold mb-3">Te registras</h3>
+          <p class="text-gray-600">Cédula profesional + CLABE bancaria. Aprobación en 24hrs. Sin costos, sin mensualidades.</p>
+        </div>
+        
+        <div class="card-hover bg-gradient-to-br from-violet-50 to-violet-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 rounded-xl bg-violet-600 flex items-center justify-center text-white font-bold text-xl mb-6">2</div>
+          <h3 class="text-xl font-semibold mb-3">Compartes tu link</h3>
+          <p class="text-gray-600">Cada médico tiene un link único. Lo mandas por WhatsApp, lo pones en tu consultorio, lo compartes en consulta. Tu link = tu comisión.</p>
+        </div>
+        
+        <div class="card-hover bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold text-xl mb-6">3</div>
+          <h3 class="text-xl font-semibold mb-3">Cobras automático</h3>
+          <p class="text-gray-600">15% de cada compra referida. Transferencia a tu CLABE en 24-48hrs. Dashboard en tiempo real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="py-24 px-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-4">Productos que puedes recomendar</h2>
+      <p class="text-gray-600 text-center mb-16 text-lg">Todos COFEPRIS registrados. Todos con respaldo en literatura científica.</p>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card-hover bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+          <div class="text-4xl mb-4">🧬</div>
+          <h3 class="text-xl font-bold mb-2">NMN 1000mg</h3>
+          <p class="text-blue-600 font-semibold mb-3">$899 MXN | Tu comisión: $135 MXN</p>
+          <p class="text-gray-600 text-sm leading-relaxed">Nicotinamida Mononucleotida 1,000mg/cápsula. La dosis más alta disponible en México. Apoya NAD+ celular y función mitocondrial.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-green-700 bg-green-50 rounded-lg px-3 py-2">
+            <span>✓ Referenciado: David Sinclair, Harvard</span>
+          </div>
+        </div>
+        
+        <div class="card-hover bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+          <div class="text-4xl mb-4">⚡</div>
+          <h3 class="text-xl font-bold mb-2">GlucoTrim</h3>
+          <p class="text-blue-600 font-semibold mb-3">$749 MXN | Tu comisión: $112 MXN</p>
+          <p class="text-gray-600 text-sm leading-relaxed">DHB + Berberina HCl. 5x más biodisponible que berberina estándar. Apoya metabolismo de glucosa e insulinosensibilidad.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-green-700 bg-green-50 rounded-lg px-3 py-2">
+            <span>✓ 3,000+ estudios clínicos sobre berberina</span>
+          </div>
+        </div>
+        
+        <div class="card-hover bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+          <div class="text-4xl mb-4">🧠</div>
+          <h3 class="text-xl font-bold mb-2">Power Up!</h3>
+          <p class="text-blue-600 font-semibold mb-3">$549 MXN | Tu comisión: $82 MXN</p>
+          <p class="text-gray-600 text-sm leading-relaxed">Lion's Mane + Bacopa Monnieri + L-Teanina + Fosfatidilserina. Neuroprotección y función cognitiva. Sin estimulantes.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-green-700 bg-green-50 rounded-lg px-3 py-2">
+            <span>✓ NGF: Mori et al. 2009 (revisado)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center text-sm text-gray-500">
+        Próximamente: Colágeno + péptidos GLP-1, Omega-3 de alta concentración, Vitamina D3+K2 MK-7
+      </div>
+    </div>
+  </section>
+
+  <!-- COMISIONES -->
+  <section id="comisiones" class="py-24 px-6 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-4">Potencial de ingresos</h2>
+      <p class="text-gray-600 text-center mb-16 text-lg">Calculadora honesta. Sin promesas vacías.</p>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-8 rounded-2xl text-center">
+          <div class="text-gray-500 text-sm mb-2">5 pacientes/mes compran</div>
+          <div class="text-3xl font-bold text-gray-900 mb-1">$560–$675 MXN</div>
+          <div class="text-gray-500 text-sm">ingreso mensual extra</div>
+        </div>
+        <div class="bg-blue-600 p-8 rounded-2xl text-center text-white">
+          <div class="text-blue-200 text-sm mb-2">25 pacientes/mes compran</div>
+          <div class="text-3xl font-bold mb-1">$2,800–$3,375 MXN</div>
+          <div class="text-blue-200 text-sm">ingreso mensual extra</div>
+        </div>
+        <div class="bg-gray-900 p-8 rounded-2xl text-center text-white">
+          <div class="text-gray-400 text-sm mb-2">100 pacientes/mes compran</div>
+          <div class="text-3xl font-bold mb-1">$11,200–$13,500 MXN</div>
+          <div class="text-gray-400 text-sm">ingreso mensual extra</div>
+        </div>
+      </div>
+
+      <p class="mt-8 text-center text-sm text-gray-500">
+        Basado en 15% de comisión sobre precio de venta. GlucoTrim $749 + NMN $899 promedio = $824 MXN por orden.
+        Los cálculos son estimados, no garantizados.
+      </p>
+    </div>
+  </section>
+
+  <!-- REGISTRO FORM -->
+  <section id="registro" class="py-24 px-6 bg-gradient-to-br from-blue-600 to-violet-700">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-white mb-4">Únete como médico afiliado</h2>
+      <p class="text-blue-100 mb-10 text-lg">Primeros 50 médicos. Acceso prioritario. Sin costo.</p>
+      
+      <div class="bg-white rounded-2xl p-8 shadow-2xl text-left">
+        <form id="doctor-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="mb-5">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Nombre completo</label>
+            <input type="text" name="nombre" required placeholder="Dr. María López" 
+              class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          
+          <div class="mb-5">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Especialidad</label>
+            <select name="especialidad" required 
+              class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+              <option value="">Seleccionar...</option>
+              <option>Medicina General/Familiar</option>
+              <option>Medicina Interna</option>
+              <option>Endocrinología</option>
+              <option>Nutrición Clínica</option>
+              <option>Cardiología</option>
+              <option>Geriatría</option>
+              <option>Medicina del Deporte</option>
+              <option>Medicina Funcional/Integrativa</option>
+              <option>Otra</option>
+            </select>
+          </div>
+          
+          <div class="mb-5">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Cédula profesional</label>
+            <input type="text" name="cedula" required placeholder="12345678" 
+              class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          
+          <div class="mb-5">
+            <label class="block text-sm font-medium text-gray-700 mb-2">WhatsApp</label>
+            <input type="tel" name="whatsapp" required placeholder="+52 55 1234 5678" 
+              class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          
+          <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+            <input type="email" name="email" required placeholder="doctor@clinica.mx" 
+              class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+          </div>
+          
+          <button type="submit" 
+            class="w-full bg-blue-600 text-white py-4 rounded-xl font-semibold text-lg hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+            Solicitar acceso prioritario →
+          </button>
+          
+          <p class="text-center text-xs text-gray-500 mt-4">
+            Al registrarte aceptas recibir comunicaciones de Avalo. 
+            Aprobación en 24hrs. Sin cargos.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-12 px-6">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 rounded bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center">
+          <span class="text-white font-bold text-xs">A</span>
+        </div>
+        <span class="text-white font-semibold">Avalo</span>
+        <span class="text-gray-600">— by CellX Nutrition</span>
+      </div>
+      <div class="text-sm">
+        <a href="mailto:hagen@cellxnutrition.com" class="hover:text-white transition">hagen@cellxnutrition.com</a>
+        · 
+        <a href="https://cellx.com.mx" class="hover:text-white transition">cellx.com.mx</a>
+      </div>
+      <div class="text-xs">
+        © 2026 CellX Nutrition. Ciudad de México.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Form submission
+    const form = document.getElementById('doctor-form');
+    form?.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      btn.textContent = 'Enviando...';
+      btn.disabled = true;
+      
+      // For now, just show success (replace with real Formspree ID)
+      setTimeout(() => {
+        form.innerHTML = `
+          <div class="text-center py-8">
+            <div class="text-5xl mb-4">✅</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">¡Solicitud recibida!</h3>
+            <p class="text-gray-600">Te contactaremos en menos de 24 horas por WhatsApp para completar tu registro.</p>
+          </div>
+        `;
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
